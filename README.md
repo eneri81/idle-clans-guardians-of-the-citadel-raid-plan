@@ -53,14 +53,57 @@ The planner then:
 
 ## How to use
 
-1. **Clone or download** this repository.
-2. Open **`index.html`** in a modern browser (Chrome 90+, Firefox 88+, Safari 14+, Edge 90+).
-3. Choose your input mode:
-   - **Enter Players:** type usernames, click **Fetch & Calculate**
-   - **Enter Clan Name:** type clan name, select team size, click **Fetch Clan & Recommend**
-4. Review the suggested role assignments and transition plan.
-5. *(Optional)* Click a saved username to reuse it, or clear history.
+### Option 1: Use GitHub Pages (fastest)
+1. Visit: **https://eneri81.github.io/idle-clans-guardians-of-the-citadel-raid-plan/**
+2. Start entering player names or a clan name and click **Fetch & Calculate** or **Fetch Clan & Recommend**
+3. Done! No installation needed.
+
+### Option 2: Download and run locally
+1. Click **Code** → **Download ZIP** on this repository
+2. Extract the ZIP file to any folder
+3. Open **`index.html`** in your browser (double-click or drag into browser)
+4. Enter player names or clan name and start planning
+
+### Option 3: Clone the repository
+1. Clone this repo:
+   ```bash
+   git clone https://github.com/eneri81/idle-clans-guardians-of-the-citadel-raid-plan.git
+   ```
+2. Open `index.html` in your browser
+3. Review the suggested role assignments and transition plan
 
 ---
 
-## Repository structure
+## Requirements
+
+- **Browser:** Modern browser with ES6+ support
+  - Chrome 90+, Firefox 88+, Safari 14+, Edge 90+
+- **Network:** Internet access to `https://query.idleclans.com` (IdleClans API)
+- **Files:** `index.html` and the `files/` directory (assets)
+
+---
+
+## Data & privacy
+
+- **No backend:** Player/clan data is fetched live from the IdleClans API; nothing is sent to a server.
+- **Local storage only:**
+  - Dark mode preference
+  - Recently entered usernames
+- **No analytics, no tracking, no accounts** – use it entirely offline after the first API fetch.
+
+---
+
+## Not affiliated
+
+This is a community-made helper tool and is **not officially affiliated with IdleClans**.
+
+---
+
+## Credits
+
+- **Inspired by:** [Warscroll's Reckoning of the Gods Raid Planner](https://github.com/Warscroll/idleclans-ReckoningoftheGods-Planner)
+- **Idle Clans game:** [idle-clans.com](https://idle-clans.com)
+- **Community wiki:** [wiki.idleclans.com](https://wiki.idleclans.com)
+
+
+
